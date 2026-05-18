@@ -1,36 +1,36 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   Insert:
-  - P
-  - Y
-  - F
-  - G
+  - Q
+  - W
+  - E
+  - R
   - '&gl'
   - '&vl'
-  - C
-  - R
-  - L
-  - Z
-  - A
-  - O
-  - E
+  - T
+  - Y
   - U
   - I
-  - D
-  - H
-  - T
-  - N
+  - A
   - S
-  - {t: Q, h: LCTRL}
+  - D
+  - F
+  - G
+  - P
+  - H
   - J
   - K
+  - L
+  - {t: Z, h: Scroll}
   - X
+  - C
+  - {t: V, h: LCTRL}
   - {t: ',', h: Symbols}
   - {t: ., h: Numpad}
   - B
+  - N
   - M
-  - W
-  - V
+  - O
   - LGUI
   - {t: SPACE, h: LSHIFT}
   - BACK SPACE
@@ -57,10 +57,10 @@ layers:
   - PP
   - RIGHT
   - C
-  - LCTRL
-  - {t: Symbols, h: toggle}
-  - {t: Games, h: toggle}
-  - {t: Numpad, h: toggle}
+  - {t: LCTRL, type: held}
+  - Symbols
+  - Games
+  - Numpad
   - PRINT SCREEN
   - DragH
   - L CLK
@@ -165,10 +165,10 @@ layers:
   - '5'
   - '6'
   - '0'
-  - F9
+  - {t: F9, type: held}
   - F10
-  - {t: F11, type: held}
-  - DEV TOOLS
+  - F11
+  - {t: DEV TOOLS, type: held}
   - /
   - X
   - '7'
@@ -201,8 +201,8 @@ layers:
   - '%'
   - ^
   - '-'
-  - \
-  - '['
+  - {t: \, type: held}
+  - {t: '[', type: held}
   - ']'
   - '"'
   - '>'
@@ -237,9 +237,9 @@ layers:
   - DOWN
   - RIGHT
   - ''
-  - LSHFT
+  - {t: LSHFT, type: held}
   - A
-  - S
+  - {t: S, type: held}
   - D
   - C
   - VOL DN
@@ -273,7 +273,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -309,7 +309,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -345,7 +345,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
